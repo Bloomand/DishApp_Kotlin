@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_search">
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="bloomand.myapplication.ui.search.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_current"
+        android:name="bloomand.myapplication.ui.current.CurrentFragment"
+        android:label="@string/title_current"
+        tools:layout="@layout/fragment_current" />
+
+    <fragment
+        android:id="@+id/navigation_liked"
+        android:name="bloomand.myapplication.ui.liked.LikedFragment"
+        android:label="@string/title_liked"
+        tools:layout="@layout/fragment_liked" />
+</navigation>

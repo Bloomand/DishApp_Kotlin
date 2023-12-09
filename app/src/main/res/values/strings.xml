@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ProjectBegining</string>
+    <string name="button">Sign In</string>
+    <string name="logo">Logo</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="authorization">Authorization</string>
+    <string name="first_time_here">First time here?</string>
+    <string name="registration">Registration</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_search">Search</string>
+    <string name="title_current">Cook</string>
+    <string name="title_liked">Liked</string>
+</resources>
